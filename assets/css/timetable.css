@@ -1,0 +1,56 @@
+
+body{font-family:Inter,Arial,sans-serif;background:#f8fafc;margin:0}
+.header{background:linear-gradient(135deg,#1e40af,#2563eb);color:#fff;padding:32px}
+.container{max-width:1400px;margin:auto;padding:24px}
+.actions{display:flex;gap:12px;margin:20px 0}
+.btn{padding:10px 16px;border-radius:10px;background:#2563eb;color:#fff;text-decoration:none;border:none;cursor:pointer}
+.card{background:#fff;border-radius:18px;padding:20px;margin:20px 0;box-shadow:0 8px 20px rgba(0,0,0,.06)}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #e2e8f0;padding:10px;text-align:center}
+th{background:#eff6ff}
+@media(max-width:900px){.card{overflow:auto}}
+
+
+.navbar{
+    background:#fff;
+    padding:16px 28px;
+    border-radius:20px;
+    margin-bottom:30px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+}
+
+.nav-brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.nav-brand img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+}
+
+.nav-brand h3{
+    margin:0;
+}
+
+.nav-brand small{
+    color:#64748b;
+}
+
+.nav-links{
+    display:flex;
+    gap:16px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+}

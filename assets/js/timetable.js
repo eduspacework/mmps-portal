@@ -1,0 +1,1 @@
+function printTimetable(){window.print();}
